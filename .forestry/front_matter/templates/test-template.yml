@@ -33,3 +33,5 @@ fields:
     max: 
     labelField: 
   label: Repeater
+pages:
+- title-edel.md

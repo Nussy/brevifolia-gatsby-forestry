@@ -13,3 +13,4 @@ fields:
   label: repository_url
 pages:
 - config.json
+- config.json
