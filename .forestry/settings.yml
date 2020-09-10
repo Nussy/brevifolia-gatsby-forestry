@@ -10,7 +10,7 @@ sections:
   path: ''
   label: Edel
   create: all
-  match: "**/*"
+  match: test/**/*
   templates:
   - test-template
 - type: heading
