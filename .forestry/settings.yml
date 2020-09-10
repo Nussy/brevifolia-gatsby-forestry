@@ -5,15 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Test
-- type: directory
-  path: ''
-  label: Edel
-  create: all
-  match: test/**/*
-  templates:
-  - test-template
-- type: heading
   label: Content
 - type: directory
   path: content/posts
