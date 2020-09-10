@@ -1,4 +1,13 @@
 ---
 label: Full width
 hide_body: true
-fields: []
+fields:
+- name: full_width_text_component
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Full Width Text Component
