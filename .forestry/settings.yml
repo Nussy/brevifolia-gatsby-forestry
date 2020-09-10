@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: content/edels
+  label: Edel
+  create: all
+  match: "**/*"
+  templates:
+  - test-template
+- type: directory
   path: content/posts
   label: Blog Posts
   create: documents
