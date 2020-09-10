@@ -12,6 +12,7 @@ fields:
   label: Edel Block
   template_types:
   - full-width
+  - img
   config:
     min: 
     max: 
