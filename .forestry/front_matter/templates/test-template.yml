@@ -1,4 +1,35 @@
 ---
 label: Test template
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: edel_block
+  type: blocks
+  label: Edel Block
+  template_types:
+  - test-template
+  config:
+    min: 
+    max: 
+- name: repeater
+  type: field_group_list
+  fields:
+  - name: repeat_1
+    type: text
+    config:
+      required: false
+    label: Repeat 1
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: Img
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Repeater
