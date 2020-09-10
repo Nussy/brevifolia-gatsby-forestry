@@ -11,7 +11,7 @@ fields:
   type: blocks
   label: Edel Block
   template_types:
-  - test-template
+  - full-width
   config:
     min: 
     max: 
