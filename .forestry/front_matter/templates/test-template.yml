@@ -35,4 +35,4 @@ fields:
     labelField: 
   label: Repeater
 pages:
-- content/edels/test-edel.md
+- edels/edel-post.md
