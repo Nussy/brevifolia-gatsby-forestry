@@ -7,10 +7,12 @@ sections:
 - type: heading
   label: Test
 - type: directory
-  path: test
+  path: ''
   label: Edel
   create: all
   match: "**/*"
+  templates:
+  - test-template
 - type: heading
   label: Content
 - type: directory
