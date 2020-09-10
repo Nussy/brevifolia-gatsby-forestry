@@ -6,9 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: Test
-- type: document
-  path: test/*
+- type: directory
+  path: test
   label: Edel
+  create: all
   match: "**/*"
 - type: heading
   label: Content
