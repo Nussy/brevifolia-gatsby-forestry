@@ -9,8 +9,9 @@ sections:
 - type: directory
   path: content/edels
   label: Edel
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: md
   templates:
   - test-template
 - type: heading
