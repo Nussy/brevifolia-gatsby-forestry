@@ -20,6 +20,7 @@ fields:
   template_types:
   - full-width
   - img
+  - post-thumbnail
   config:
     min: 
     max: 
