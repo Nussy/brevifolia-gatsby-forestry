@@ -2,7 +2,7 @@
 label: img
 hide_body: true
 fields:
-- name: image
+- name: block_image
   type: file
   config:
     maxSize: 64
