@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 
 export default function BlogList() {
   const blogData = useBlogData()
+  console.log("blogData ", blogData)
   function renderBlogData() {
     return (
       <div>
@@ -16,7 +17,7 @@ export default function BlogList() {
               <Link to={`/blog/${blog.node.fields.slug}`} key={blog.node.id}>
                 <li className={blogListStyles.li} key={blog.node.fields.slug}>
                   <div className={blogListStyles.list__hero}>
-                    <Img 
+                    <Img
                       fluid={
                         blog.node.frontmatter.hero_image.childImageSharp.fluid
                       }

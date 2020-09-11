@@ -16,7 +16,11 @@ export default function Header(props) {
         <Link to="/">
           <h1>{props.title}</h1>
         </Link>
+        <Link to="/edel" activeClassName={headerStyles.navItemActive}>
+          <h2>Edel</h2>
+        </Link>
         <div>
+
           <h1>
             <Link
               to={

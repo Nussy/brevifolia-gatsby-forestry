@@ -34,6 +34,13 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "edels",
+        path: `${__dirname}/edels`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "data",
         path: `${__dirname}/content/data`,
       },
@@ -46,7 +53,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-sharp", 
+      resolve: "gatsby-plugin-sharp",
       options: {
         defaultQuality: 75
       }
