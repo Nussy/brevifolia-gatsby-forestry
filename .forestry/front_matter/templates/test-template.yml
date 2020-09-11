@@ -68,6 +68,7 @@ fields:
   label: repeater Field group test
 pages:
 - edels/edel-post.md
+- edels/michael.md
 - edels/new-post.md
 - edels/quatrieme.md
 - edels/third-post.md
