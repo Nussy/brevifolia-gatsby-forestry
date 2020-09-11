@@ -44,3 +44,4 @@ fields:
   label: Repeater
 pages:
 - edels/edel-post.md
+- edels/new-post.md
