@@ -1,5 +1,5 @@
 ---
-post_image: "/content/images/ruslan-bardash-g83y6do219w-unsplash.jpg"
+post_image: "/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 title: new post
 edel_block:
 - template: img
