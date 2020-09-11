@@ -43,6 +43,16 @@ fields:
     max: 
     labelField: 
   label: Repeater
+- name: group_field
+  type: field_group
+  config: {}
+  fields:
+  - name: image_group
+    type: file
+    config:
+      maxSize: 64
+    label: Image group
+  label: Group field
 pages:
 - edels/edel-post.md
 - edels/new-post.md
