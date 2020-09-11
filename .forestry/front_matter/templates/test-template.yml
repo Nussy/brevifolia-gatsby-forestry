@@ -29,6 +29,7 @@ fields:
     config:
       maxSize: 64
     label: Img
+    default: "/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg"
   config:
     min: 
     max: 
