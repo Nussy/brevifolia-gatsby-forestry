@@ -7,6 +7,13 @@ fields:
   config:
     required: false
   label: Title
+- name: post_image
+  type: file
+  config:
+    maxSize: 64
+  label: Post Image
+  description: TEst
+  default: "/content/images/ruslan-bardash-g83y6do219w-unsplash.jpg"
 - name: edel_block
   type: blocks
   label: Edel Block
@@ -14,8 +21,8 @@ fields:
   - full-width
   - img
   config:
-    min:
-    max:
+    min: 
+    max: 
 - name: repeater
   type: field_group_list
   fields:
@@ -31,9 +38,9 @@ fields:
     label: Img
     default: "/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg"
   config:
-    min:
-    max:
-    labelField:
+    min: 
+    max: 
+    labelField: 
   label: Repeater
 pages:
 - edels/edel-post.md
