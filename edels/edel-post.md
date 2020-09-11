@@ -10,5 +10,6 @@ repeater:
 - repeat_1: Repeat 1
   img: "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
   temp_img: "/content/images/max-di-capua-AhHICglxxx8-unsplash.jpg"
+post_image: "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 
 ---
