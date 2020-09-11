@@ -24,7 +24,7 @@ fields:
     config:
       required: false
     label: Repeat 1
-  - name: img
+  - name: temp_img
     type: file
     config:
       maxSize: 64
