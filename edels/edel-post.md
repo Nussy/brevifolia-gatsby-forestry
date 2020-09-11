@@ -1,6 +1,9 @@
 ---
 title: Edel post
-edel_block: []
+edel_block:
+- template: img
+  image: "/content/images/igor-son-FV_PxCqgtwc-unsplash.jpg"
+  tile_image: ''
 repeater:
 - repeat_1: Repeat 2
   img: "/content/images/ruslan-bardash-g83y6do219w-unsplash.jpg"
