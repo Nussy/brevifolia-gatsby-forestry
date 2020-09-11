@@ -14,8 +14,8 @@ fields:
   - full-width
   - img
   config:
-    min: 
-    max: 
+    min:
+    max:
 - name: repeater
   type: field_group_list
   fields:
@@ -27,13 +27,13 @@ fields:
   - name: temp_img
     type: file
     config:
-      maxSize: 64
+      maxSize: '10'
     label: Img
     default: "/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg"
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Repeater
 pages:
 - edels/edel-post.md
